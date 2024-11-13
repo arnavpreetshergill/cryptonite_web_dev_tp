@@ -1,4 +1,4 @@
-# Selctors
+# Selectors
 #### Selectors are the HTML elements to which CSS rules are applied
 ## Universal Selector
 ##### This selector will select elements of all types. 
