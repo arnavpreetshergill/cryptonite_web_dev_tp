@@ -5,4 +5,4 @@
 flex-direction: coloumn;
 }
 ```
-### By default, the main axis is the horizontal axis. If flex-direction is specified as columnm, then it becomes vertical.
+#### By default, the main axis is the horizontal axis. If flex-direction is specified as columnm, then it becomes vertical.
