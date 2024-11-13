@@ -96,4 +96,15 @@ background-color: black;
 ```
 #### would select the elements only if they are in the contents class AND if the content class is nested in the ancestor class. There is no limits to combinators and it doesn't matter how deep the class is nested.
 # Properties
-## Color and background-color
+## color and background-color
+#### color sets the element's text color and background-color sets the background color. can accept key words like red, transparent etc or HEX values.
+## font-family
+#### font-family is used to select the font for text. Use "" for font names with whitenames otherwise just use the name as it is if it is a single word.
+## font-size
+#### used to select font size. e.g - font-size: 22px 
+## font-weight
+#### determines boldness. can be the keyword "bold" or a numeric value betweeen 1 and 1000.
+## text-align
+#### aligns the text horizontally within an element, syntax - text-align: center
+## Image height and width
+#### if you want to resize an image without losing its proportions, keep "height: auto" and adjust the width value. These should be included in the code even if we dont plan to change them because then the website will reserve space for them until they load in. Otherwise, the photo loading in will drastically shift the other elements in the website. 
