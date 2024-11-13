@@ -56,7 +56,7 @@ color: white;
 background-color: black;
 }
 ```
-is the same as 
+#### is the same as 
 ```
 .read,
 .unread {
@@ -67,5 +67,33 @@ background-color: black;
 .read{}
 .unread{}
 ```
+## Chaining selectors
+#### selectors can be chanined together to target very specific elements, for example:
+```
+<div>
+  <div class="subsection header">Latest Posts</div>
+  <p class="subsection" id="preview">
+    This is where a preview for a post might go.
+  </p>
+</div>
+```
+#### the two elements can vbe selected individually by:
+```
+.subsection.header {
+  color: red;
+}
 
-
+.subsection#preview {
+  color: blue;
+}
+```
+#### you can't chain more than one type selector because if we tried to chain together <div> and <p> we will get divp and the selector will try to look for a literal <divp> element. 
+## Descendant combinator
+```
+.ancestor .contents {
+}
+ 
+```
+#### would select the elements only if they are in the contents class AND if the content class is nested in the ancestor class. There is no limits to combinators and it doesn't matter how deep the class is nested.
+# Properties
+## Color and background-color
